@@ -1,1 +1,7 @@
 # Text-Preprocessing
+Text preprocessing merupakan sebuah proses yang penting dalam Natural Language Processing (NLP) karena karakter, kata, dan kalimat yang diidentifikasi pada tahap ini adalah unit dasar yang diteruskan ke semua tahap pemrosesan lebih lanjut.
+Dalam melakukan text preprocessing terdapat beberapa tahapan yaitu removing symbols, removing numbers, removing ASCII string, punctuation, tokenization, case folding, stemming, dan stopword removal.
+## Word Cloud
+Sebuah sistem yang memuncukkan susunan kata sebagai citra visual terkait frekuensi kemunculan kata dalam suatu teks verbal dengan mengambarkan frekuensi kata-kata dalam bentuk yang menarik dan informatif, semakin sering satu kata digunakan, maka semakin besar ukuran kata tersebut ditampikan salam word cloud.
+## Term Weighting
+Proses pembobotan pada setiap kata atau term-weightening merupakan metode yang digunakan untuk mendapatkan nilai frekuensi dari masing-masing kata di dalam suatu dokumen sehingga diperoleh perbandingan antara kata satu dengan lainnya karena setiap kata memiliki tingkat kepentingan yang berbeda-beda. Salah satu metode yang sering digunakan untuk menghitung bobot dari suatu term atau kata di dalam dokumen adalah Term Frequency-Inverse Do-cument Frequency (TF-IDF). Tahapan yang dilakukan dalam melakukan pembobotan dengan metode TF-IDF ialah Term Weighting, Document Frequency, Inverse Document Frequency, dan Term Frequency-Inverse Document Frequency (TF-IDF).
